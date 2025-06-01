@@ -3,6 +3,8 @@
 // import viteLogo from '/vite.svg'
 // import './App.css'
 
+import Chai from "./chai";
+
 function App() {
   // const [count, setCount] = useState(0)
 
@@ -29,8 +31,13 @@ function App() {
     //     Click on the Vite and React logos to learn more
     //   </p>
     // </>
-    <h1>chai aur react with vite | Abhishek Singh</h1>
-  )
+    // <h1>chai aur react with vite | Abhishek Singh</h1>
+    <>
+      <Chai />
+      <h1>Chai aur react</h1>
+      <p>test para</p>
+    </>
+  );
 }
 
-export default App
+export default App;
